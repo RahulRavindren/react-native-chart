@@ -68,7 +68,7 @@ export default class XAxis extends Component {
 									color: this.props.axisLabelColor,
 								},
 							]}
-						>{new Date(d[0]*1000).toDateString()}</Text>
+						>{"test"}</Text>
 				);
 				});
 			})()}
