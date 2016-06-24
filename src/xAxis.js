@@ -1,3 +1,13 @@
+/**
+* @Author: Rahul Ravindran <root>
+* @Date:   2016-06-24T15:49:10+05:30
+* @Email:  rahul.r945@gmail.com
+* @Last modified by:   root
+* @Last modified time: 2016-06-24T15:50:10+05:30
+*/
+
+
+
 /* @flow */
 'use strict';
 import React, { Component, PropTypes } from 'react';
@@ -58,7 +68,7 @@ export default class XAxis extends Component {
 									color: this.props.axisLabelColor,
 								},
 							]}
-						>{d[0]}</Text>
+						>{new Date(d[0]).toString()}</Text>
 				);
 				});
 			})()}
